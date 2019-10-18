@@ -1,0 +1,93 @@
+img{
+	max-width: 100%;
+}
+.galeria{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.tarjeta{
+	border: 1px solid #000;
+	width: 32%;
+}
+.color{
+	display: flex;
+	justify-content: space-around;
+}
+.color div{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+.color-rosa{
+	background-color:pink;
+}
+.color-azul{
+	background-color:blue;
+}
+.color-rojo{
+	background-color: red;
+}
+.color-negro{
+	backgrond-color: black;
+}
+.color-amarillo{
+	background-color: yellow;
+}
+.color-verde{
+	background-color: green;
+}
+.color-cafe{
+	background-color: saddlebrown;
+}
+.color-gris{
+	background-color: silver;
+}
+.color-morado{
+	background-color: purple;
+}
+footer{
+	padding: 1em;
+	background-color: hsl(210,100%, 50%);
+	display: flex;
+	justify-content: center;
+}
+i{
+	font-size: 2em;
+	margin: 0 .6em;
+}
+
+body {
+  font-family:Monaco,Georgia,Times,serif;
+}
+
+.titulo{
+	font-size: 3em;
+	color: teal;
+	text-align: center;
+	transition: 3s color;
+}
+.titulo:hover{
+	color: black;
+}
+.precio{
+	font-size: 1em;
+	color:  blue;
+}
+.parrafo{
+	font-size: 2em;
+	color: red;
+	transition: 2s color;
+}
+.parrafo:hover{
+	color:green;
+}
+.parr{
+	font-size: 2em;
+	color: green;
+}
+.sub{
+	font-size: 1em;
+	color: orange;
+}
